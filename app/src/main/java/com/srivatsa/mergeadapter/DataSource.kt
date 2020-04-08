@@ -9,7 +9,7 @@ object DataSource {
             User(
                 1,
                 "Srivatsa",
-                "https://s3.amazonaws.com/uifaces/faces/twitter/sunlandictwin/128.jpg"
+                "https://twitter.com/srivatsa224/photo"
             )
         )
         add(
@@ -22,7 +22,7 @@ object DataSource {
         add(
             User(
                 3,
-                "Gilfouil",
+                "Gilfoyle",
                 "s3.amazonaws.com/uifaces/faces/twitter/allfordesign/128.jpg"
             )
         )
@@ -50,5 +50,5 @@ object DataSource {
 
     }
     fun getBanner()=
-        Banner(R.drawable.mrandroidcover)
+        Banner(R.drawable.piper)
 }

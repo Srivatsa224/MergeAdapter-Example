@@ -21,7 +21,8 @@ class MyDetailAdapter (
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)=DataViewHolder (
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)=
+        DataViewHolder (
             LayoutInflater.from(parent.context).inflate(
                 R.layout.item_layout_my_detail, parent,false
             )

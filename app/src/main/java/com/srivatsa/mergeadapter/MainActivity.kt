@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var myDetailAdapter: MyDetailAdapter
     lateinit var userVerticalAdapter: UsersAdapter
     lateinit var bannerAdapter: BannerAdapter
-    val myDetail = MyDetail(1, "Srivatsa", "I am teh founder of MrAndroid.")
+    val myDetail = MyDetail(1, "Srivatsa", "Founder and CEO, PiedPiper ")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -5,6 +5,9 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
+    dataBinding{
+        enabled=true
+    }
 
     defaultConfig {
         applicationId "com.srivatsa.mergeadapter"
@@ -38,4 +41,5 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     // Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }
