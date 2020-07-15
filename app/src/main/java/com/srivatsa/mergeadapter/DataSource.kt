@@ -9,14 +9,14 @@ object DataSource {
             User(
                 1,
                 "Srivatsa",
-                "https://twitter.com/srivatsa224/photo"
+                "https://ibb.co/rck8jK1.jpg"
             )
         )
         add(
             User(
                 2,
                 "Richard",
-                "https://s3.amazonaws.com/uifaces/faces/twitter/johnsmithagency/128.jpg"
+                "https://silicon-valley.fandom.com/wiki/Richard_Hendricks?file=Richard_Hendricks.jpgx"
             )
         )
         add(
